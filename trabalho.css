@@ -1,0 +1,144 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+    
+    background-image: url("Gojo Satoru.jpeg");
+
+    background-color: #000000;
+
+}
+
+
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.quadro {
+
+    background-color: #68aca8;
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.quadro-cabeçario {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: 	#012925;
+
+}
+
+.quadro-cabeçario::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color:(0,191,255);
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.quadro-dados label {
+
+    color: rgb(40, 119, 184);
+
+    font-size: 12px;
+
+    opacity: 0.8;
+    
+
+}
+
+.dados {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.dados input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #219191;
+
+    outline: none;
+
+    color: #0ac5c5;
+
+}
+
+.botão {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.botão .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #033a3a;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+}
+
+.botão a {
+
+    text-align: center;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #000000;
+
+    text-decoration: none;
+
+}

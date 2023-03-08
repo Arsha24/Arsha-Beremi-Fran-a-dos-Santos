@@ -1,0 +1,149 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+    
+    background-image: url("yuji.jpeg");
+
+    background-color: #000000;
+
+}
+
+.form {
+
+    background-color: #000000;
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width:280px;
+
+}
+
+.quadro-cabeçario {
+
+    padding-bottom: 24px;
+
+
+
+    color: 	#b34a4a;
+
+    
+
+
+    
+
+}
+
+.nome {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+
+        display: flex;
+    
+        flex-direction: column;
+    
+        padding:10px 0;
+    
+    
+   
+
+}
+.quadro-cabeçario::after {
+
+    content: "";
+
+    width: 70px;
+
+    height: 1px;
+
+    background-color:(0,191,255);
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.quadro-dados label {
+
+    color: rgb(190, 8, 8);
+
+    font-size: 12px;
+
+    opacity: 0.8;
+    
+
+}
+.aniver{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+}
+
+.escolha{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.vil{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+    
+}
+
+.botão {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.botão .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #3a0303;
+
+    border:none;
+
+    color:#f5ecec;
+
+    margin: 10px 0;
+
+}
+
+.dados{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+        color: aliceblue;
+        
+        display: flex;
+    
+        flex-direction: column;
+    
+        padding:10px 0;
+    
+}
