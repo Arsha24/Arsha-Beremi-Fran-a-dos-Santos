@@ -1,8 +1,8 @@
 <?php
 
-function select_linhas() {
+function select_vilao() {
 	global $conn;
-	$sth = $conn->prepare("SELECT * FROM evento");
+	$sth = $conn->prepare("SELECT * FROM anime");
 	$sth->execute();
 	return $sth->fetchAll();
 }
