@@ -80,6 +80,12 @@ INSERT INTO `vilao` (`id_vilao`, `nome`) VALUES
 (2, 'Sukuna'),
 (3, 'Mahito');
 COMMIT;
+ALTER TABLE `protagonista`
+  ADD PRIMARY KEY (`id_prota`);
+
+
+ALTER TABLE `vilao`
+  ADD PRIMARY KEY (`id_vilao`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
