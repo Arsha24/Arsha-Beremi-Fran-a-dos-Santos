@@ -2,7 +2,7 @@
 
 $bd_host = "localhost";
 $sgbd = "mysql";
-$base_de_dados = "eventos";
+$base_de_dados = "anime";
 $bd_usuario = "root";
 $bd_senha = "";
 
