@@ -14,7 +14,7 @@ require_once("tabelas.php");
 <body> 
 
     
-  <form action="trabalho3.php" method="post" class="form">
+  <form action="sua_opiniao.php" method="post" class="form">
   <div class="quadro-cabeçario">
 
     <h2>Login</h2>
@@ -56,8 +56,8 @@ require_once("tabelas.php");
 	<?php
 	$vilao = select_vilao();
 	foreach($vilao as $vilao) {
-		echo "<input type=\"radio\" name=\"linha\" id=\"linha_{$vilao['id_linha']}\" value=\"{$vilao['id_linha']}\">\n";
-		echo "<label for=\"linha_{$vilao['id_linha']}\">{$vilao['nome']}</label>";
+		echo "<input type=\"radio\" name=\"vilao\" id=\"vilao_{$vilao['nomev']}\" value=\"{$vilao['nomev']}\">\n";
+		echo "<label for=\"vilao_{$vilao['nomev']}\">";
 	}		
 	?>
 </fieldset>
@@ -81,4 +81,4 @@ require_once("tabelas.php");
 </div>
 </div>
   </form> 
-</body>      
+</body> 
