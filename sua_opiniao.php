@@ -9,18 +9,15 @@ require_once("tabelas.php");
 	<title>Sua opiniao</title>
 </head>
 <body>
-	<h3>Sua opiniao sobre Jujutsu <a href="trabalho p2.php">(+)</a></h3>
+	<h3>Sua resposta <a href="anime.php">(voltar)</a></h3>
 	<?php
-	$moveis = select_opiniao();
+	$protagonista = select_protagonista();
 	echo "<table border=1>\n";
-	foreach($opiniao as $opiniao) {
+	foreach($protagonista as $protagonista) {
 		echo "<tr>\n";
-		echo "<td>" . $opiniao['id_vilao'] . "</td>";
-		echo "<td>" . $opiniao['nota'] . "</td>";
-		echo "<td>" . $opiniao['opiniao'] . "</td>";
-		echo "<td>" . $opiniao['nome'] . "</td>";
-		echo "<td>" . $opiniao['opiniao'] . "</td>";
-		echo "<td><a href=\"excluir_opiniao.php?id_movel=" . $opiniao['id_vilao'] . "\">Excluir</a></td>";
+		echo "<td>" . $protagonista['id_prota'] . "</td>";
+		echo "<td>" . $protagonista['nome'] . "</td>";
+		echo "<td><a href=\"excluir_opiniao.php?id_vilao=" . $protagonista['nome'] . "\">Excluir</a></td>";
 		echo "</tr>\n";
 	}		
 	echo "</table>\n";
@@ -28,3 +25,4 @@ require_once("tabelas.php");
 
 </body>
 </html>
+?>
